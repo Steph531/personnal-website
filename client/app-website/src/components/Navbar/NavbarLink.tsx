@@ -6,7 +6,7 @@ function NavbarLink(props){
 
     return(
         <Link 
-        className={`p-2 mx-2 block rounded-3xl text-center hover:bg-slate-500 transition duration-250 ${props.selected ? 'bg-slate-500' : ''}`}
+        className={`p-2 mx-2 block text-white text-center ${props.selected ? 'underline' : ''}`}
         href=""
         to={props.to}>
             {props.text}</Link>

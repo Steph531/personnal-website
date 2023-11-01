@@ -19,11 +19,47 @@ function Experiences(props){
         },
         {
             // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
+        },
+        {
+            // Another object with data
         }
         ];
     return(
-        <div className="h-screen snap-start overflow-y-scroll">
-            <h1 className="text-center text-4xl">Experiences</h1>
+        <div className="bg-black min-h-screen">
+            <h1 className="text-center text-4xl text-white">Experiences</h1>
             {/* <Experience business="Groupe BZ" job="Développeur" date="Mars 2020 - Juin 2023"/> */}
             <Timeline data={data}/>
         </div>

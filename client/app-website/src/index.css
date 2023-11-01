@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
 }
 
 body {
@@ -14,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #101010;
 }
 
 code {

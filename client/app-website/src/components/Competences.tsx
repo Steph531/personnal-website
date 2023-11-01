@@ -3,8 +3,8 @@ import ProgressBar from './ProgressBar.tsx';
 
 function Competences(props){
     return(
-        <div className="h-screen flex flex-col snap-start">
-            <h1 className="mx-auto text-center font-sans text-4xl">Compétences</h1>
+        <div className="h-screen bg-black flex flex-col">
+            <h1 className="mx-auto text-center text-white font-sans text-4xl">Compétences</h1>
 
             <div className="flex grow items-center">
                 <article className="flex-[2] p-3">
